@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: foobar
+  labels:
+    application: foobar
+    size: small
+    team: mike
+    environment: dev
+  name: foobar-
